@@ -1,0 +1,208 @@
+[{
+  "_id": {
+    "$oid": "683a6315ec7e55c603587606"
+  },
+  "product_name": "salsa soya",
+  "brand": "kikkoman",
+  "category": "salsa",
+  "units_stock": 45,
+  "low_stock_threshhold": 10,
+  "supplier": "metro cencosud",
+  "notes": "para poner en mesas",
+  "product_id": 1
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c603587607"
+  },
+  "product_name": "Arroz jazmín",
+  "brand": "Diana",
+  "category": "carbohidrato",
+  "units_stock": 95,
+  "low_stock_threshhold": 15,
+  "supplier": "Metro Cencosud",
+  "notes": "Base para platos principales",
+  "product_id": 2
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c603587608"
+  },
+  "product_name": "Fideos de arroz",
+  "brand": "Doña Pancha",
+  "category": "carbohidrato",
+  "units_stock": 60,
+  "low_stock_threshhold": 12,
+  "supplier": "Ólimpica",
+  "notes": "Para sopas y salteados",
+  "product_id": 3
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c603587609"
+  },
+  "product_name": "Aceite de sésamo",
+  "brand": "La Española",
+  "category": "aceite",
+  "units_stock": 34,
+  "low_stock_threshhold": 6,
+  "supplier": "Ólimpica",
+  "notes": "Para saborizar y freír",
+  "product_id": 4
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c60358760a"
+  },
+  "product_name": "Pollo fresco",
+  "brand": "Avianca",
+  "category": "proteína",
+  "units_stock": 50,
+  "low_stock_threshhold": 10,
+  "supplier": "Metro Cencosud",
+  "notes": "Cortado en tiras",
+  "product_id": 5
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c60358760b"
+  },
+  "product_name": "Tofu firme",
+  "brand": "Tofu Orgánico",
+  "category": "proteína",
+  "units_stock": 40,
+  "low_stock_threshhold": 8,
+  "supplier": "Ólimpica",
+  "notes": "Producto vegetariano",
+  "product_id": 6
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c60358760c"
+  },
+  "product_name": "Salsa de ostras",
+  "brand": "Lee Kum Kee",
+  "category": "salsa",
+  "units_stock": 35,
+  "low_stock_threshhold": 7,
+  "supplier": "Metro Cencosud",
+  "notes": "Sabor umami para salteados",
+  "product_id": 7
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c60358760d"
+  },
+  "product_name": "Salsa de chile dulce",
+  "brand": "Colanta",
+  "category": "salsa",
+  "units_stock": 25,
+  "low_stock_threshhold": 5,
+  "supplier": "Ólimpica",
+  "notes": "Para acompañar platos",
+  "product_id": 8
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c60358760e"
+  },
+  "product_name": "Verduras congeladas",
+  "brand": "Frío Real",
+  "category": "vegetales",
+  "units_stock": 80,
+  "low_stock_threshhold": 15,
+  "supplier": "Metro Cencosud",
+  "notes": "Mezcla variada",
+  "product_id": 9
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c60358760f"
+  },
+  "product_name": "Jengibre fresco",
+  "brand": "Mercado Local",
+  "category": "condimento",
+  "units_stock": 20,
+  "low_stock_threshhold": 4,
+  "supplier": "Ólimpica",
+  "notes": "Rallado o en trozos",
+  "product_id": 10
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c603587610"
+  },
+  "product_name": "Cebolla blanca",
+  "brand": "La Colina",
+  "category": "vegetales",
+  "units_stock": 70,
+  "low_stock_threshhold": 12,
+  "supplier": "Metro Cencosud",
+  "notes": "Para sofritos y salsas",
+  "product_id": 11
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c603587611"
+  },
+  "product_name": "Salsa de soja baja sal",
+  "brand": "Kikkoman",
+  "category": "salsa",
+  "units_stock": 50,
+  "low_stock_threshhold": 10,
+  "supplier": "Ólimpica",
+  "notes": "Alternativa baja sodio",
+  "product_id": 12
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c603587612"
+  },
+  "product_name": "Harina de trigo",
+  "brand": "Harimasa",
+  "category": "carbohidrato",
+  "units_stock": 90,
+  "low_stock_threshhold": 17,
+  "supplier": "Metro Cencosud",
+  "notes": "Para tempura y masas",
+  "product_id": 13
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c603587613"
+  },
+  "product_name": "Azúcar morena",
+  "brand": "Néctar",
+  "category": "condimento",
+  "units_stock": 40,
+  "low_stock_threshhold": 8,
+  "supplier": "Ólimpica",
+  "notes": "Para balancear sabores",
+  "product_id": 14
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c603587614"
+  },
+  "product_name": "Almidón de maíz",
+  "brand": "Doña Pancha",
+  "category": "carbohidrato",
+  "units_stock": 60,
+  "low_stock_threshhold": 12,
+  "supplier": "Metro Cencosud",
+  "notes": "Para espesar salsas",
+  "product_id": 15
+},
+{
+  "_id": {
+    "$oid": "683a6315ec7e55c603587615"
+  },
+  "product_name": "Aceite vegetal",
+  "brand": "La Española",
+  "category": "aceite",
+  "units_stock": 70,
+  "low_stock_threshhold": 14,
+  "supplier": "Ólimpica",
+  "notes": "Aceite neutro para freír",
+  "product_id": 16
+}]

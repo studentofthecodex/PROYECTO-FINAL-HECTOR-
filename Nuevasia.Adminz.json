@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "683a62f7ec7e55c603587601"
+  },
+  "username": "admin1",
+  "email": "chencizheng@qq.com",
+  "product_id": 1
+},
+{
+  "_id": {
+    "$oid": "683a62f7ec7e55c603587602"
+  },
+  "username": "admin2",
+  "email": "ccli@qq.com",
+  "product_id": 2
+},
+{
+  "_id": {
+    "$oid": "683a62f7ec7e55c603587603"
+  },
+  "username": "manager1",
+  "email": "mangratliu@gmail.com",
+  "product_id": 3
+}]
