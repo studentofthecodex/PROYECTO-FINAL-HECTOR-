@@ -1,0 +1,81 @@
+
+
+//  RQF 1 – Mostrar todos los productos disponibles
+db["Productos"].find({});
+
+//  RQF 1.1 – Mostrar disponibilidad de un producto específico
+db["Productos"].find({ product_name: "salsa soya" });
+
+//  RQF 2 – Identificar productos con stock bajo o igual al umbral
+db["Productos"].find({
+  $expr: { $lte: ["$units_stock", "$low_stock_threshhold"] }
+});
+
+//  RQF 3 – Agregar nuevo producto
+db["Productos"].insertOne({
+  product_name: "Nuevo Producto",
+  brand: "Marca Ejemplo",
+  category: "categoria",
+  units_stock: 50,
+  low_stock_threshhold: 10,
+  supplier: "Ólimpica",
+  notes: "Descripción ejemplo"
+});
+
+//  RQF 4 – Actualizar cantidad con $inc (sumar/restar unidades)
+db["Productos"].updateOne(
+  { product_id: 1 },           
+  { $inc: { units_stock: -5 } }
+);
+
+//  RQF 5 – Eliminar un producto por ID
+db["Productos"].deleteOne({ product_id: 1 });
+
+//  RQF 6 – Buscar productos por categoría
+db["Productos"].find({ category: "proteína" });
+
+//  RQF 7 – Buscar productos por proveedor
+db["Productos"].find({ supplier: "Metro Cencosud" });
+
+//  RQF 8 – Buscar productos por nombre parcial (regex, insensible a mayúsculas)
+db["Productos"].find({ product_name: /salsa/i });
+
+//  RQF 9 – (NO IMPLEMENTADO) Mostrar suma total del inventario
+
+//  RQF 10 – Evitar duplicados (nombre, marca y proveedor)
+db["Productos"].createIndex(
+  { product_name: 1, brand: 1, supplier: 1 },
+  { unique: true }
+);
+
+//  RQF 11 – Iniciar sesión como administrador
+db["Adminz"].find({
+  username: "adminUser",
+  email: "admin@example.com"
+});
+
+//  RQF 12 – Agregar nuevo administrador
+db["Adminz"].insertOne({
+  username: "newAdmin",
+  email: "newadmin@example.com"
+});
+
+//  RQF 13 – Actualizar usuario y correo de admin
+db["Adminz"].updateOne(
+  { admin_id: 1 },
+  {
+    $set: {
+      username: "updatedAdmin",
+      email: "updated@example.com"
+    }
+  }
+);
+
+//  RQF 14 – Eliminar administrador
+db["Adminz"].deleteOne({ admin_id: 1 });
+
+//  RQF 15 – Mostrar productos de una categoría y sus unidades (proyección)
+db["Productos"].find(
+  { category: "carbohidrato" },
+  { product_name: 1, units_stock: 1, _id: 0 }
+);
